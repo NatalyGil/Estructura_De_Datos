@@ -6,16 +6,17 @@ import java.util.Scanner;
 
 public class Sumatorias {
     public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int dato;
+        String c;
         
         long tiempoInicial = System.nanoTime();
         int ejecuciones = 0;
         int [] valores = new int[1000000];
 
-        Scanner sc = new Scanner(System.in);
+        
         int bandera = 1 ;
         double suma = 0.0;
-        int dato;
-        String c;
         
             for (int i = 0; i < 1000000; i++) {
                 
